@@ -15,5 +15,17 @@ $number_3 = 3;
 //print_r($arr);
 
 
+//const AVAILABLE_PRODUCT = "available";
+
+$x = '2';
+
+//comparison oparator
+// < > == != === <= =>
  
+// if ($x != 2) {
+// 	echo "ok";
+// }else{
+// 	echo "not ok";
+// }
+
 
