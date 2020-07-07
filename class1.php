@@ -29,3 +29,45 @@ $x = '2';
 // }
 
 
+function test($test, $two){
+	return "its a function {$test} {$two}";
+}
+
+$test = test('php', 'javascript');
+
+echo $test;
+
+
+// $array = array('one', 'two', 'three');
+
+// $count =  count($array);
+
+// foreach ($array as $key=>$test) {
+// 	echo $key . "-" . $test . "<br>";
+// }
+
+// for ($i=0; $i <$count ; $i++) { 
+// 	echo $array[$i] . '<br>';
+// }
+
+// $x = 14;
+
+// switch ($x) {
+// 	case '1':
+// 		echo "1";
+// 		break;
+// 	case '2':
+// 		echo "2";
+// 		break;
+	
+// 	default:
+// 		echo "nothing is matched";
+// 		break;
+// }
+
+// $x = 1;
+
+// while ($x <= 5) {
+// 	echo $x .'<br>';
+// 	$x++;
+// }
