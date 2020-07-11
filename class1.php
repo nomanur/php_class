@@ -1,10 +1,14 @@
 <?php
 
+include 'helper.php';
+
 //echo "hello world";
 
 $number_1 = 1;
 $number_2 = 2;
 $number_3 = 3;
+
+
 
 //echo $number_2 % 2;
 
@@ -29,13 +33,15 @@ $x = '2';
 // }
 
 
-function test($test, $two){
-	return "its a function {$test} {$two}";
-}
+// $name = 'noman';
 
-$test = test('php', 'javascript');
+// function test($test, $two) {
+// 	return "its a function {$test} {$two}";
+// }
 
-echo $test;
+// $test = test('php', 'javascript');
+
+// echo $test;
 
 
 // $array = array('one', 'two', 'three');
@@ -46,7 +52,7 @@ echo $test;
 // 	echo $key . "-" . $test . "<br>";
 // }
 
-// for ($i=0; $i <$count ; $i++) { 
+// for ($i=0; $i < $count ; $i++) { 
 // 	echo $array[$i] . '<br>';
 // }
 
@@ -71,3 +77,27 @@ echo $test;
 // 	echo $x .'<br>';
 // 	$x++;
 // }
+
+
+// $array = ['i', 'am', 'learning', 'php'];
+
+// $imp = implode("", $array);
+
+//echo $imp;
+
+// $string = "this is a string";
+
+// $exp = explode(" ", $string);
+
+// print_r($exp);
+
+
+$str = " This is a title ";
+
+
+
+$slug = slug($str);
+
+echo $slug;
+
+
